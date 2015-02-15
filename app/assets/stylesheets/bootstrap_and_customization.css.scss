@@ -1,0 +1,27 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300,600);
+
+$body-bg:    						#ecf0f1;
+$font-family-sans-serif:       		'Josefin Sans'  "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$navbar-default-bg:      			white;
+$navbar-defualt-link-color:     	#7f8c8d;
+$navbar-default-link-hover-color:   #3498db;
+$navbar-default-brand-hover-color:  #3498db; 
+$navbar-default-brand-color:      	#1abc9c;
+$navbar-height:    					45px;
+
+$jumbotron-bg:      				white;
+$jumbotron-color:   				#202020;
+
+$btn-primary-bg: 					#1abc9c;
+
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
+
+@import 'bootstrap';
