@@ -1,4 +1,6 @@
 Pinteresting::Application.routes.draw do
+  resources :pins
+
   devise_for :users
 root "pages#home"
 get "mypick" => "pages#mypick" #creates my pick path
